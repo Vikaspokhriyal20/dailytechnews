@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arya&display=swap');
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arya;
+}
+
+
+.main-container
+{
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 1rem;
+}
+
+.loading
+{
+    letter-spacing: 2px;
+    color: green;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.news-card
+{
+    background-color: #ffe9ec;
+    padding: 1.6rem 1rem;
+    margin-bottom: 1rem;
+    line-height: 2rem;
+}
+
+.news-card h4 ,p
+{
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+
+.title
+{
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.card-button
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a
+{
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+
+#remove
+{
+    color: red;
+}
+
+#readmore
+{
+    color: gray;
+}
+
+.input-container
+{
+    max-width: 450px;
+    margin: auto;
+}
+.searchbox
+{
+    width: 100%;
+    padding: 0.8rem 1rem;
+    background-color: #f5f5f5;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+    color: rgb(36, 35, 35);
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.pagination
+{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    margin-bottom: 2rem;
+}
+
+.pagination > button
+{
+    border: none;
+    outline: none;
+    background-color: rgb(87, 84, 84);
+    padding: 0.1rem 0.6rem;
+    color: white;
+    letter-spacing: 1px;
+}
+
+
+
