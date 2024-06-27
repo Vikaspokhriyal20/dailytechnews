@@ -3,7 +3,6 @@ import Stories from './Stories'
 import Pagination from './Pagination'
 import Search from './Search'
 import './App.css'
-import ToggleSwitch from './ToggleSwitch'
 
 
 const App = () => {
@@ -15,8 +14,6 @@ const App = () => {
         <Search />
         <Pagination />
         <Stories />
-        
-
       </div>
     </>
   )

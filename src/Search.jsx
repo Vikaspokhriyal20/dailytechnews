@@ -1,6 +1,5 @@
 import React from 'react'
 import { useGlobalContext } from './ContextAPI'
-import ToggleSwitch from './ToggleSwitch';
 
 const Search = () => {
   const { query , searchPost} = useGlobalContext();
@@ -15,7 +14,6 @@ const Search = () => {
           value={query}
           onChange={(e)=>searchPost(e.target.value)}
         />
-        <ToggleSwitch/>
       </div>
     </>
   )

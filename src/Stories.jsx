@@ -19,7 +19,7 @@ const Stories = () => {
 
                 return (
                         <div className="news-card" key={objectID} >
-                            <h4>{title}</h4>
+                            <h4 className='blue'>{title}</h4>
                             <p>By <span>{author}</span> | <span>{num_comments} comments</span></p>
                             <div className="card-button">
                                 <a href={url} target='_blank' id='readmore'>
